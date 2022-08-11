@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        주말이 기다려집니다.
+    </title>
+    <body>
+        <h3>자기 소개서 작성</h3>
+        <hr>
+        <form name = "indivisual" method="get" action = "exam.php">
+            <h1>이름 : </h1>
+            <br>
+            <input type = "text" value="">
+            <h1>암호 : </h1>
+            <br>
+            <input type = "password" value="">
+            <input type = "submit" value ="완료">
+            <h1>자소서 : </h1>
+            <br>
+            <textarea cols="20" rows="5">이곳에 자기 소개서 작성</textarea>
+            <p>
+                <h1>가고싶은 나라를 설정해주세요</h1>
+                <hr>
+                <input type="text" list="countries">
+                    <datalist id="countries">
+                        <option value="가나">
+                        </option>
+                        <option value="스위스">
+                        </option>
+                        <option value="브라질">
+                        </option>
+                    </datalist>
+                <input type="submit" value="선택">
+            </p>
+        </form>
+    </body>
+</head>
