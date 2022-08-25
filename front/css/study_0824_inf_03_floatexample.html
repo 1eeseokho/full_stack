@@ -1,0 +1,90 @@
+<!-- <!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>float으로 영역 나누기</title>
+        <style>
+            .main{
+                border : 2px solid gray;
+                height:600px;
+            }
+            header{
+                border : 1px solid powderblue;
+                width:500px;
+                height:100px;
+            }
+            nav{
+                float: left;
+                border : 1px solid red;
+                width:100px;
+                height:500px;
+            }
+            article{
+                border : 1px solid blue;
+                width:400px;
+                height: 350px;
+            }
+            footer{
+                border:1px solid purple;
+            }
+
+        </style>
+    </head>
+    <body class="main">
+        <header>global menu</header>
+        <nav>left menu</nav>
+        <article>article</article>
+        <footer>comment</footer>
+    </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .ex-layout{
+                height:310px;
+            }
+            .menu{
+                width:300px;
+                height : 40px;
+                border: 2px solid #09c;
+                background-color: #d7f5ff;
+            }
+            .main .left-menu{
+                float:left;
+                width:50px;
+                height:254px;
+                border:2px solid red;
+                background-color: #ffe7d5;
+            }
+            .main .content{
+                float:left;
+                width: 250px;
+                height : 250px;
+            }
+            .main .content .article{
+                height:200px;
+                border:2px solid blue;
+                background-color: #e2e9ff;
+            }
+            .main .content .comment{
+                height:50px;
+                border:2px solid purple;
+                background-color: #ffddff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ex-layout">
+            <div class="menu">global menu</div>
+            <div class="main">
+                <div class="left-menu">left menu</div>
+                <div class="content">
+                    <div class="article">article</div>
+                    <div class="comment">comment</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

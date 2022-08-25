@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            float 연습하기
+        </title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .news {
+                border : 1px solid red;
+                width : 60vw;
+                height : 500px;
+                margin: 0 auto;
+            }
+            .news .header{
+                border : 1px solid powderblue;
+                width : 100%;
+                height : 70px;
+            }
+            .news .nav{
+                border : 1px solid red;
+                width :38px;
+                height : 427px;
+                float : left;
+            }
+            .news .article{
+                float : left;
+                border: 1px solid blue;
+                width : calc(100%-42px);
+                height : 327px;
+                overflow: hidden;
+            }
+            .news .footer{
+                float: left;
+                border: 1px solid purple;
+                width : calc(100%-42px);
+                height :98px;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <menu class="news">
+            <div class="header">해당 자리는 헤더입니다.</div>
+            <div class="nav">해당 자리는 네비게이션입니다"
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                </ul>
+            </div>
+            <div class="article">article은 메인 내용이 들어갑니다.</div>
+            <div class="footer">이 곳은 꼬릿말, 즉 푸터네요</div>
+        </menu>
+    </body>
+</html>
